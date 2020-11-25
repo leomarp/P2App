@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/design_default_color_primary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/left_icon"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_arrow_back"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/white"
+            android:layout_toEndOf="@+id/left_icon"
+            android:layout_centerVertical="true"
+            android:textSize="20dp"
+            android:text="SQLite"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/right_icon"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_baseline_add"/>
+
+
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/toolbar"-->
+<!--        android:background="@color/design_default_color_primary"-->
+<!--        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"-->
+<!--        app:title="SQlite"-->
+<!--        app:titleMarginStart="40dp"-->
+<!--        app:logo=""-->
+<!--        />-->
+
+    </RelativeLayout>
+</RelativeLayout>
